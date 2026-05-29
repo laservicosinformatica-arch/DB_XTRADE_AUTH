@@ -2,7 +2,7 @@ CREATE TABLE app_users (
     id BIGINT NOT NULL AUTO_INCREMENT,
     username VARCHAR(80) NOT NULL,
     password_hash VARCHAR(120) NOT NULL,
-    cpf CHAR(11) NOT NULL,
+    cpf VARCHAR(11) NOT NULL,
     full_name VARCHAR(150) NULL,
     email VARCHAR(180) NULL,
     enabled BOOLEAN NOT NULL DEFAULT TRUE,
